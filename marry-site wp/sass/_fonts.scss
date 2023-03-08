@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'GoodVibesPro';
+  src: url('../fonts/GVibesPro/GoodVibesPro.eot');
+  src: url('../fonts/GVibesPro/GoodVibesPro.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/GVibesPro/GoodVibesPro.woff') format('woff'),
+    url('../fonts/GVibesPro/GoodVibesPro.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'InterLight';
+  src: url('../fonts/InterLight/Inter-Light.eot');
+  src: url('../fonts/InterLight/Inter-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/InterLight/Inter-Light.woff') format('woff'),
+    url('../fonts/InterLight/Inter-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'InterSB';
+  src: url('../fonts/InterSB/Inter-SemiBold.eot');
+  src: url('../fonts/InterSB/Inter-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/InterSB/Inter-SemiBold.woff') format('woff'),
+    url('../fonts/InterSB/Inter-SemiBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@mixin GVP {
+  font-family: 'GoodVibesPro',
+  sans-serif;
+}
+@mixin Inl {
+  font-family: 'InterLight',
+    sans-serif;
+}
+@mixin ISB {
+  font-family: 'InterSB',
+    sans-serif;
+}

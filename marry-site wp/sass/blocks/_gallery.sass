@@ -1,0 +1,50 @@
+.gallery
+  &-container
+    margin: 0 auto
+  &-block
+    margin-top: 50px
+    &__item
+      margin: 0 20px
+  &__arrows
+    display: flex
+    margin-left: 85%
+    width: 100px
+    justify-content: space-between
+    margin-top: 20px
+
+@media (max-width: 1600px)
+  .gallery
+    &-container
+      max-width: 90%
+      
+@media (max-width: 1200px)
+  .gallery
+    margin-top: 80px
+    &-container
+      max-width: 95%
+      width: 990px
+
+
+@media (max-width: 991px)
+  .gallery
+    &-container
+      width: 90%
+      margin: 0 auto
+    &-block
+      margin-top: 50px
+
+@media (max-width: 572px)
+  .gallery
+    &-container
+      width: 300px
+      margin: 0 auto
+    &-block
+      width: 100%
+      margin: 0 auto
+      margin-top: 30px
+    &__arrows
+      display: flex
+      margin: 0 auto
+      width: 100px
+      justify-content: space-between
+      margin-top: 10px
